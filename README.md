@@ -720,17 +720,17 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
     - [x] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [x] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [x] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
-    - [ ] Implement a max-heap:
-        - [ ] insert
-        - [ ] sift_up - needed for insert
-        - [ ] get_max - returns the max item, without removing it
-        - [ ] get_size() - return number of elements stored
-        - [ ] is_empty() - returns true if heap contains no elements
-        - [ ] extract_max - returns the max item, removing it
-        - [ ] sift_down - needed for extract_max
-        - [ ] remove(i) - removes item at index x
-        - [ ] heapify - create a heap from an array of elements, needed for heap_sort
-        - [ ] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
+    - [x] Implement a max-heap:
+        - [x] insert
+        - [x] sift_up - needed for insert
+        - [x] get_max - returns the max item, without removing it
+        - [x] get_size() - return number of elements stored
+        - [x] is_empty() - returns true if heap contains no elements
+        - [x] extract_max - returns the max item, removing it
+        - [x] sift_down - needed for extract_max
+        - [x] remove(i) - removes item at index x
+        - [x] heapify - create a heap from an array of elements, needed for heap_sort
+        - [x] heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
             - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
 ## Sorting
